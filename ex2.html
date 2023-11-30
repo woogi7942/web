@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+       function changeimg(){
+        var obj=document.querySelector("img");
+        obj.src="b.png";
+        document.querySelector("div").innerText="b.png 보노보노";
+       } 
+    </script>
+</head>
+<body>
+    <img src="a.jpg" width="100px" onclick="changeimg()">
+    <div>a.jpg 보노보노</div>
+    <!-- 이미지를 클릭하면 a.jpg->b.png로 변경되게 하시오 -->
+    <!-- 동시에 div의 a.jpg -> b.png 보노보노 로 변경되게 하시오. -->
+</body>
+</html>
